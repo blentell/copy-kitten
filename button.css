@@ -1,11 +1,10 @@
 .button {
 	display: flex;
 	flex-direction: column;
-	margin-left: 30px;
+	margin-left: 650px;
 	width: 450px;
 	height: 70px;
 	justify-content: center;
-	align-content: center;
 	background-color: #437cbb;
 	border-bottom: solid 5px #294a6d;
 	border-radius: 15px;
@@ -14,21 +13,24 @@
 	font-variant-caps: all-small-caps;
 }
 
-a {
+a#button,
+a.button-hover {
 	color: white;
 }
 
-a:link {
+a#button:link,
+a.button-hover {
 	text-decoration: none;
 	color: white;
 }
-a:visited {
+a#button:visited,
+a.button-hover {
 	text-decoration: none;
 }
-a:hover {
+a#button:hover a.button-hover {
 	text-decoration: none;
 }
-a:active {
+a#button:active a.button-hover {
 	text-decoration: none;
 }
 
